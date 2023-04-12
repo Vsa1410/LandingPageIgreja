@@ -1,6 +1,7 @@
 import * as React from 'react'
 import logo from '../../assets/logo.jpg'
 import "./styleHeader.css"
+import instagramLogo from "../../assets/instagram.svg"
 
 const Header =  () => {
     return(
@@ -15,7 +16,8 @@ const Header =  () => {
                 <div className='item'>Contato</div>
 
             </nav>
-            <div>
+            <div className='social-media'>
+                <img src={instagramLogo} alt="" srcset="" />
 
             </div>
 

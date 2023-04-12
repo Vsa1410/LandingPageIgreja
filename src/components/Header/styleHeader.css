@@ -31,3 +31,10 @@
     font-family: 'Roboto', sans-serif;
 
 }
+.social-media{
+    justify-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 40%;
+}
