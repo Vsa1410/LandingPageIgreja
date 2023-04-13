@@ -2,6 +2,7 @@ import * as React from 'react'
 import banner1 from '../../assets/BannerMilagresDeJesus.jpg'
 import './home.css'
 import img from "../../assets/img1.png"
+import {Divider} from "@mui/material"
 
 const Home = ()=>{
     return(
@@ -15,6 +16,8 @@ const Home = ()=>{
                 <div className='section1'>
                     <div className='calendar'>
                         <h3>Próximos eventos</h3>
+                        <Divider />
+
                         <div className='calendar-events'>
                             <p className='event-title'>Culto da Família</p>
                             <p className='event-date'>16/04/2023 18:30</p>

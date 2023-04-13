@@ -10,6 +10,9 @@
     
     
 }
+.header-top{
+    display: grid;
+}
 .burger-menu{
     visibility: hidden;
 }
@@ -69,9 +72,14 @@
 
 }
 .social-media{
-    justify-self: flex-end;
+    justify-self: flex-start;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: flex-end;
     width: 40%;
+    height: 30px;
+    padding-left: 20px;
+}
+.logo-social-media{
+    height: 25px;
 }

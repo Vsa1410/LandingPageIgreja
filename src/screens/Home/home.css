@@ -44,6 +44,8 @@
     background-color: #383838;
     border-radius: 12px;
     font-family: Roboto;
+    margin-top: 10px;
+    height: 90%;
 
 }
 .event-title{
@@ -57,8 +59,10 @@
 .calendar-events{
     background-color: #5e5e5fa4;
     border-radius: 12px;
-    padding: 5px;
-    padding-left: 20px;
+    padding: 10px;
+    padding-left: 15px;
+    height: 80px;
+    
 }
 
 .body{
