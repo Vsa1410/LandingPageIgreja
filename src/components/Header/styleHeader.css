@@ -10,6 +10,43 @@
     
     
 }
+.burger-menu{
+    visibility: hidden;
+}
+@media only screen and (max-width: 810px){
+    .menu{
+        right: 0;
+        opacity: 90%;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+        width: 300px;
+        background-color: antiquewhite;
+        display: inline-flex;
+        flex-direction: column;
+        flex-direction: inherit;
+        align-items: flex-start;
+        justify-content:flex-start ;
+    }
+    
+    .item{
+        width: 100%;
+        background-color: aqua;
+        margin: 0;
+        padding: 0;
+    }
+    .social-media{
+        visibility: hidden;
+    }
+    .burger-menu{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        visibility: inherit;
+        width: 100%;
+        margin:0
+    }
+}
 .menu{
     display: flex ;
     flex-direction: row;
