@@ -1,17 +1,23 @@
+.container
+{position: fixed;
+width: 100%;}
 .header{
     top:0;
     width: 100%;
     height: 100px;
     margin: 0;
     display: flex;
-    border-bottom-color: #Bda576;
+    border-bottom-color: #0f0f0f;
     border-bottom-width: 2px;
     border-bottom-style: solid;
+    background-color: white;
     
     
 }
 .header-top{
     display: grid;
+    background-color: black;
+    
 }
 .burger-menu{
     visibility: hidden;
@@ -40,6 +46,7 @@
     }
     .social-media{
         visibility: hidden;
+
     }
     .burger-menu{
         display: flex;
@@ -76,10 +83,12 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    width: 40%;
+    width: 100%;
     height: 30px;
     padding-left: 20px;
+    background-color: #181818;
 }
 .logo-social-media{
     height: 25px;
+    fill:#fff;
 }

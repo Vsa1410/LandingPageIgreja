@@ -1,0 +1,35 @@
+.calendar{
+    display: grid;
+    text-align: start;
+    
+    padding: 20px;
+    gap:10px;
+    
+    border-radius: 12px;
+    font-family: Roboto;
+    margin-top: 10px;
+    height: 85%;
+    color: black
+
+}
+.event-title{
+    font-weight: bold;
+    
+}
+.event-date{
+    font-weight: bolder;
+    color:black;
+}
+.calendar-events{
+    background-color: bisque;
+    border-radius: 12px;
+    padding: 10px;
+    padding-left: 15px;
+    height: 80px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+.calendar-events-all-items{
+    display: flex;
+    gap:10px;
+}
