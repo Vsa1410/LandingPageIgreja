@@ -1,0 +1,29 @@
+.main-image{
+    width: 100%;
+    
+    
+}
+.banner-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.banner-title{
+    
+    color: white;
+    font-size: 64px;
+    font-family: 'Mukta';
+    font-weight: 300;
+}
+.banner-logo{
+    
+    width: 50%;
+}
+.banner-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

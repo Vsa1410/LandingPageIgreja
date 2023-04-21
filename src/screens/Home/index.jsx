@@ -5,19 +5,17 @@ import img from "../../assets/img1.png"
 import {Divider} from "@mui/material"
 import Calendar from '../../components/Calendar'
 import Carousel from '../../components/Carousel'
+import logoBig from '../../assets/logoGrande.png'
+import Banner from '../../components/Banner'
 
 const Home = ()=>{
     return(
         <div className='body'>
-            <div className='section'>
+            
+            <Banner/>
+            
+            <Calendar/>
 
-                <div className='banner'>
-                    <h2 className='banner-text'>Venha conhecer o extraordinário de Deus</h2>
-                    <Carousel/>
-                </div>
-                
-            </div>
-                <Calendar/>
             <div className='section2'>
 
                 <h2 className='subtitle'>Novidades</h2>

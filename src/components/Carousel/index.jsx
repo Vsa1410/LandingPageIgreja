@@ -7,17 +7,7 @@ import { useState } from "react";
 
 const Carousel = () =>{
 
-    const pages = [
-        {
-            img: banner1,
-            
-        },
-        {
-            img: banner2,
-            
-        }
-    ]
-    const[currentPage, setCurrentPage] = useState(pages[0].img)
+    
 
         
 
