@@ -7,6 +7,8 @@ import Calendar from '../../components/Calendar'
 import Carousel from '../../components/Carousel'
 import logoBig from '../../assets/logoGrande.png'
 import Banner from '../../components/Banner'
+import MessageOfDay from '../../components/MessageOfDay'
+import Services from '../../components/Services'
 
 const Home = ()=>{
     return(
@@ -14,7 +16,12 @@ const Home = ()=>{
             
             <Banner/>
             
+            <MessageOfDay/>
+
+            <Services/>
+
             <Calendar/>
+
 
             <div className='section2'>
 

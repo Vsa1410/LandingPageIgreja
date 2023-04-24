@@ -1,0 +1,35 @@
+.message-container{
+    
+    background-color: #050217;
+    color: #ffffff;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Mukta';
+    line-height: 20px;
+
+}
+.message-first-section{
+    width: 50%;
+    padding-left: 25%;
+}
+.message-h1{
+    font-weight: 700;
+    font-size: 60px;
+    color: #905E2F;
+    margin: 0;
+    line-height: 5px;
+}
+.message-verse{
+    width: 70%;
+}
+.message-second-section{
+    width: 50%;
+    display: flex;
+    height: auto;
+    align-items: center;
+}
+.message-logo{
+    height: 25%;
+    margin-right: 10px;
+}

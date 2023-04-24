@@ -1,0 +1,36 @@
+.services-container{
+    display: grid;
+    place-content: center;
+    place-items: center;
+    height: 20em;
+    
+    
+}
+.services-dates{
+    display: flex;
+    gap: 2em;
+    font-family: 'Mukta';
+    font-weight: bold;
+    font-size: 1.2em;
+
+}
+.services-item{
+    display: grid;
+    text-align: center;
+    line-height: 5px;
+}
+.services-divider{
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #181818;
+}
+.services-divider-sub{
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #7B6036 ;
+}
+.services-title{
+    display: grid;
+    line-height: 0;
+    margin: 3.5em;
+}

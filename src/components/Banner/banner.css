@@ -13,13 +13,17 @@
 .banner-title{
     
     color: white;
-    font-size: 64px;
+    font-size: 4em;
     font-family: 'Mukta';
     font-weight: 300;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
 }
 .banner-logo{
     
     width: 50%;
+    margin-top: 0;
 }
 .banner-content{
     position: absolute;
