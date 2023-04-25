@@ -1,5 +1,5 @@
 import * as React from 'react'
-import logo from '../../assets/logo.jpg'
+import logo from '../../assets/Logo.jpg'
 import "./styleHeader.css"
 import instagramLogo from "../../assets/instagram.svg"
 import facebookLogo from "../../assets/facebook.svg"
