@@ -1,35 +1,45 @@
 .calendar{
     display: grid;
-    text-align: start;
+    text-align: center;
+    padding: 30px;
     
-    padding: 20px;
-    gap:10px;
-    
-    border-radius: 12px;
-    font-family: Roboto;
-    margin-top: 10px;
-    height: 85%;
-    color: black
+    font-family: 'Mukta';
+    height: 22em;
+    color: #efefef;
+    background-color: #181818;
+    font-weight: bold;
 
 }
 .event-title{
     font-weight: bold;
+    line-height: 0;
     
 }
 .event-date{
-    font-weight: bolder;
-    color:black;
+    font-weight: bold;
+    color:#efefef;
 }
 .calendar-events{
-    background-color: bisque;
+    background-color: #606060;
     border-radius: 12px;
     padding: 10px;
     padding-left: 15px;
     height: 80px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    width: 20%;
+    font-size: 1.2em
     
 }
 .calendar-events-all-items{
     display: flex;
-    gap:10px;
+    gap:3em;
+    justify-content: center;
+}
+.calendar-divider-sub{
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #737373 ;
+}
+.calendar-title{
+    display: grid;
 }

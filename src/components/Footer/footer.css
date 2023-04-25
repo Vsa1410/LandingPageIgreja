@@ -1,15 +1,19 @@
 .footer{
-    display: flex;
+    display: grid;
     background-color: #181818;
-    justify-content: space-around;
-    border-top-color: cornsilk;
-    border-top-style: solid;
-    border-top-width: 1px;
+    place-content: center;
+    place-items: center;
     color:rgb(192, 192, 192);
-    height: 200px;
-    font-family: Roboto, sans-serif;
+    
+    font-family: 'Mukta';
+    padding: 3em;
 }
-ul{
-    list-style-type: none;
-
+.footer-logo{
+    width: 50%;
+}
+.footer-social-media{
+    gap: 4em;
+}
+.footer-text{
+    margin: 0;
 }

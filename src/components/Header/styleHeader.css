@@ -90,11 +90,18 @@
     justify-content: space-around;
     align-items: flex-end;
     width: 10%;
-    height: 30px;
+    height: 35px;
     padding-left: 20px;
     background-color: #181818;
     margin-left: 4%;
+    margin-bottom: 0;
+    padding-bottom: 0;
     
+}
+a{
+    margin: 0;
+    padding: 0;
+    height: 27px;
 }
 .logo-social-media{
     height: 25px;

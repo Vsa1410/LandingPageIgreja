@@ -9,6 +9,7 @@ import logoBig from '../../assets/logoGrande.png'
 import Banner from '../../components/Banner'
 import MessageOfDay from '../../components/MessageOfDay'
 import Services from '../../components/Services'
+import News from '../../components/News'
 
 const Home = ()=>{
     return(
@@ -22,27 +23,8 @@ const Home = ()=>{
 
             <Calendar/>
 
-
-            <div className='section2'>
-
-                <h2 className='subtitle'>Novidades</h2>
-                <div className='news'>
-                    <div className='news-items'>
-                        <img className='img' src={img}/>
-                        <h4>Assista agora o nosso musical de Páscoa</h4>
-                    </div>
-                    <div className='news-items'>
-                        <img className='img' src={img}/>
-                        <h4 className='news-subtitle'>Assista agora o nosso musical de Páscoa</h4>
-                    </div>
-                    <div className='news-items'>
-                        <img className='img' src={img}/>
-                        <h4>Assista agora o nosso musical de Páscoa</h4>
-                    </div>
-
-                </div>
-
-            </div>
+            <News/>
+           
 
         </div>
     )

@@ -8,7 +8,7 @@ const MessageOfDay = () =>{
                 <p>Reflexão</p>
                 <h3>Palavra de</h3>
                 <h1 className="message-h1">Deus</h1>
-                <h3>hoje</h3>
+                
             </div>
             <div className="message-second-section">
                 <img  className="message-logo" src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/ffffff/external-Quotation-chat-tanah-basah-glyph-tanah-basah.png"/>

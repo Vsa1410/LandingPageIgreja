@@ -13,9 +13,17 @@ const Header =  () => {
         
         <div className='header-top' >
             <div className='social-media'>
-                <img src="https://img.icons8.com/sf-black-filled/27/ffffff/facebook.png"/>
-                <img src="https://img.icons8.com/material-rounded/27/ffffff/youtube-play.png"/>
-                <img src="https://img.icons8.com/material/27/ffffff/instagram-new--v1.png"/>
+            <a href='https://www.facebook.com/assembleiacentraljf'>
+                    <img  src="https://img.icons8.com/sf-black-filled/27/ffffff/facebook.png"/>
+                </a>
+
+                <a href='https://www.youtube.com/@assembleiadedeuscentraljf'>
+                    <img src="https://img.icons8.com/material-rounded/27/ffffff/youtube-play.png"/>
+                </a>
+
+                <a href='https://www.instagram.com/ieadcjf/'>
+                    <img src="https://img.icons8.com/material/27/ffffff/instagram-new--v1.png"/>
+                </a>
                 
             </div>
             <div className='header'>

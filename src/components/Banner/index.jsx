@@ -7,7 +7,7 @@ const Banner  = () => {
     return(
         <div className='banner-container'>
             <div className='banner-content'>
-                <h1 className='banner-title'> Receba o extraordinário de Deus</h1>
+                <h1 className='banner-title'> Vivendo o propósito de Deus</h1>
                 <img src={bannerLogo} className='banner-logo'alt="" srcset="" />
             </div>
             <img src={bannerImage} className='main-image' alt="" srcset="" />
