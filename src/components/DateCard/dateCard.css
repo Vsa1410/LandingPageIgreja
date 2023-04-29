@@ -1,0 +1,38 @@
+.dateCard-container{
+    width: 90%;
+    background-color: #efefef;
+    color: #191919;
+    display:flex;
+    border-radius: 6px;
+    gap: 30px;
+    align-items: center;
+
+}
+.date-title{
+
+}
+.date-month{
+    margin: 0 0 0 0;
+    font-size: 1.2em;
+    color:chocolate
+}
+.date-number{
+    font-size: 2em;
+    margin: 20px 0 0 0;
+    line-height: 10px;
+}
+.date-divider{
+    height: 80px;
+    border-right-style: solid;
+    border-right-width: 2px ;
+    border-right-color: #918f8f;
+    
+}
+.datecard-date{
+    margin: 0 0 0 20px;
+    width: 20%;
+}
+.date-hour{
+    margin: 0;
+    padding: 0;
+}

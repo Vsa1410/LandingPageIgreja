@@ -1,12 +1,21 @@
-.nav-button{
-    padding: 8px 30px 8px 8px;
-    background-color: transparent;
-    border: none;
-    margin-top: 20px;
-    cursor: pointer;
-    
 
+.nav-button{
+    visibility: hidden;
+}
+
+@media only screen and (max-width:810px){
     
+    .nav-button{
+        visibility: visible;
+        padding: 8px 30px 8px 8px;
+        background-color: transparent;
+        border: none;
+        margin-top: 20px;
+        cursor: pointer;
+        
+    
+        
+    }
 }
 .overlay{
     width: 0%;
