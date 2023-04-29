@@ -1,5 +1,5 @@
-.container
-{position: fixed;
+.container{
+    position: fixed;
     top:0;
     width: 100%;
     font-family: 'Mukta';
@@ -28,41 +28,6 @@
 .burger-menu{
     visibility: hidden;
 }
-@media only screen and (max-width: 810px){
-    .menu{
-        right: 0;
-        opacity: 90%;
-        height: 100%;
-        position: absolute;
-        z-index: 1;
-        width: 300px;
-        background-color: antiquewhite;
-        display: inline-flex;
-        flex-direction: column;
-        flex-direction: inherit;
-        align-items: flex-start;
-        justify-content:flex-start ;
-    }
-    
-    .item{
-        width: 100%;
-        background-color: aqua;
-        margin: 0;
-        padding: 0;
-    }
-    .social-media{
-        visibility: hidden;
-
-    }
-    .burger-menu{
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        visibility: inherit;
-        width: 100%;
-        margin:0
-    }
-}
 .menu{
     display: flex ;
     flex-direction: row;
@@ -75,14 +40,21 @@
     padding-bottom: 15px;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
+    text-decoration: none;
+    color: #181818;
+    
 }
 .item:hover{
    
-    border-bottom-color: #2596be;
-    border-bottom-width: 5px;
-    border-bottom-style: solid;
+    text-decoration-line: underline;
+    text-decoration-color: dodgerblue;
+    
     font-family: 'Roboto', sans-serif;
 
+}
+.header-logo{
+    margin-top: 0;
+    height: 0;
 }
 .social-media{
     justify-self: flex-start;
@@ -107,3 +79,37 @@ a{
     height: 25px;
     fill:#fff;
 }
+.logo{
+    
+}
+
+.burger-menu{
+    visibility: hidden;
+}
+    @media only screen and (max-width: 820px){
+        .menu{
+            visibility: hidden;
+            width:0;
+            
+        }
+       .container{
+        width: 100%;
+        position: fixed;
+        
+        
+       }
+       .header{
+        display: flex;
+        justify-content: space-between;
+        position: inherit;
+       }
+       .nav-button{
+        
+       } 
+       .social-media{
+        display:flex;
+        justify-content: space-around;
+       }
+       
+       
+    }

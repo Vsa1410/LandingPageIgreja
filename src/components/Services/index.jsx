@@ -5,7 +5,7 @@ const Services = () =>{
     return(
         <div className="services-container">
             <div className="services-title">
-                <h2>Participe conosco dos nossos cultos</h2>
+                <h2> Nossos Cultos</h2>
                 <span className="services-divider-sub"></span>
 
             </div>

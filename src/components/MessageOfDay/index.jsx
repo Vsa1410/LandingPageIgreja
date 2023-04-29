@@ -5,9 +5,12 @@ const MessageOfDay = () =>{
     return(
         <div className="message-container">
             <div className="message-first-section" >
-                <p>Reflexão</p>
-                <h3>Palavra de</h3>
-                <h1 className="message-h1">Deus</h1>
+                <p className="message-text">Reflexão</p>
+                <div className="message-subtitle">
+                    <h3 className="message-text">Palavra de</h3>
+                    <h1 className="message-h1">Deus</h1>
+                </div>
+
                 
             </div>
             <div className="message-second-section">

@@ -11,14 +11,15 @@
 }
 .message-first-section{
     width: 50%;
-    padding-left: 25%;
+    padding-left:0;
 }
 .message-h1{
     font-weight: 700;
-    font-size: 60px;
+    font-size: 5rem;
     color: #905E2F;
-    margin: 0;
+    padding: 10px 0 20px 30px ;
     line-height: 10px;
+    
 }
 .message-verse{
     width: 70%;
@@ -29,7 +30,53 @@
     height: auto;
     align-items: center;
 }
+.message-text{
+    padding-left: 30px;
+}
 .message-logo{
     height: 25%;
     margin-right: 10px;
+}
+@media only screen and (max-width:810px){
+    .message-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 100%;
+    }
+    .message-verse{
+        width:90%
+    }
+    .message-logo{
+        height:20%; 
+    }
+    .message-second-section{
+        width: 100%;
+    }
+    .message-first-section{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .message-h1{
+        font-size: xx-large;
+        padding:0 0 20px 30px;
+    }
+    .message-subtitle{
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (max-width:540px) {
+    .message-container{
+        display: grid
+    }
+    .message-h1{
+        
+    }
+    .message-subtitle{
+        padding-left: 40px;
+    }
 }

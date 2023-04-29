@@ -1,0 +1,10 @@
+.live-container{
+    display: grid;
+    height: 1000px;
+    place-items: center;
+    
+}
+.live-title{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}

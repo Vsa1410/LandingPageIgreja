@@ -34,6 +34,7 @@ img{}
         justify-content: center;
         flex-direction: column;
         flex-wrap: wrap;
+        max-width: 100%;
     }
     h2{
         font-size: 20px;
