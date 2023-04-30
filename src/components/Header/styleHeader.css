@@ -25,6 +25,7 @@
     background-color: #181818;
     position: fixed;
     width: 100%;
+    z-index: 9;
     
 }
 .burger-menu{
