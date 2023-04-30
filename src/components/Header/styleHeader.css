@@ -23,6 +23,8 @@
 .header-top{
     display: grid;
     background-color: #181818;
+    position: fixed;
+    width: 100%;
     
 }
 .burger-menu{

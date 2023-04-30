@@ -10,6 +10,7 @@ import Banner from '../../components/Banner'
 import MessageOfDay from '../../components/MessageOfDay'
 import Services from '../../components/Services'
 import News from '../../components/News'
+import SundaySchool from '../../components/SundaySchool'
 
 const Home = ()=>{
     return(
@@ -20,6 +21,8 @@ const Home = ()=>{
             <MessageOfDay/>
 
             <Services/>
+
+            <SundaySchool/>
 
             <Calendar/>
 

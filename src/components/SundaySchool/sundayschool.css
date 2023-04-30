@@ -1,0 +1,16 @@
+.sunday-container{
+    background-image: url("../../assets/background-escola-dominical.jpg");
+    background-size: cover;
+    padding: 30px;
+    background-position: center;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    color:#efefef;
+    font-family: 'Mukta';
+}
+.sunday-subtitle{
+    line-height: 5px;
+    font-weight: 300;
+    font-size: 30px;
+}
